@@ -1,0 +1,661 @@
+[
+  {
+    "id": "lead-001",
+    "name": "Rahul Sharma",
+    "number": "+91 98765 43210",
+    "email": "rahul.sharma@gmail.com",
+    "city": "Mumbai",
+    "leadType": "hot",
+    "source": "google_ads",
+    "service": "web_app",
+    "notes": "Interested in e-commerce web application. Budget around 2-3 lakhs.",
+    "status": "converted",
+    "comments": [
+      {
+        "id": "c1-1",
+        "text": "Initial call done. Very interested in our services.",
+        "createdAt": "2026-01-05T10:00:00.000Z",
+        "userId": "clr-001",
+        "userName": "Neha Gupta"
+      },
+      {
+        "id": "c1-2",
+        "text": "Sent proposal via email. Quoted 2.5L for full web app.",
+        "createdAt": "2026-01-07T14:30:00.000Z",
+        "userId": "clr-001",
+        "userName": "Neha Gupta"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r1-1",
+        "dateTime": "2026-01-25T10:00:00.000Z",
+        "note": "Follow up on proposal",
+        "completed": false
+      },
+      {
+        "id": "1769171133368",
+        "dateTime": "2026-01-23T12:25:00.000Z",
+        "note": "",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-04T09:30:00.000Z",
+    "createdBy": "clr-001",
+    "createdByName": "Neha Gupta",
+    "assignedTo": "clr-001",
+    "assignedToName": "Neha Gupta",
+    "assignmentHistory": [],
+    "teamThread": [
+      "clr-001"
+    ]
+  },
+  {
+    "id": "lead-002",
+    "name": "Priya Patel",
+    "number": "+91 87654 32109",
+    "email": "priya.p@techsolutions.in",
+    "city": "Ahmedabad",
+    "leadType": "warm",
+    "source": "linkedin",
+    "service": "automation",
+    "notes": "Looking for CRM automation and email marketing integration.",
+    "status": "qualified",
+    "comments": [
+      {
+        "id": "c2-1",
+        "text": "Connected via LinkedIn. Interested in HubSpot-like automation.",
+        "createdAt": "2026-01-06T09:30:00.000Z",
+        "userId": "clr-002",
+        "userName": "Vikram Singh"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r2-1",
+        "dateTime": "2026-01-24T11:00:00.000Z",
+        "note": "Technical demo call",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-06T09:00:00.000Z",
+    "createdBy": "clr-002",
+    "createdByName": "Vikram Singh",
+    "assignedTo": "clr-002",
+    "assignedToName": "Vikram Singh",
+    "assignmentHistory": [],
+    "teamThread": [
+      "clr-002"
+    ]
+  },
+  {
+    "id": "lead-003",
+    "name": "Amit Kumar",
+    "number": "+91 76543 21098",
+    "email": "amit.kumar@startup.io",
+    "city": "Bangalore",
+    "leadType": "hot",
+    "source": "facebook",
+    "service": "app",
+    "notes": "Startup founder. Needs mobile app for food delivery service.",
+    "status": "won",
+    "comments": [
+      {
+        "id": "c3-1",
+        "text": "Great conversation. Startup founder with clear vision.",
+        "createdAt": "2026-01-02T14:30:00.000Z",
+        "userId": "clr-004",
+        "userName": "Rahul Verma"
+      },
+      {
+        "id": "c3-2",
+        "text": "Client agreed to 4L! Contract signed.",
+        "createdAt": "2026-01-10T16:30:00.000Z",
+        "userId": "clr-004",
+        "userName": "Rahul Verma"
+      }
+    ],
+    "reminders": [],
+    "createdAt": "2026-01-01T11:30:00.000Z",
+    "createdBy": "clr-004",
+    "createdByName": "Rahul Verma",
+    "assignedTo": "clr-004",
+    "assignedToName": "Rahul Verma",
+    "assignmentHistory": [],
+    "teamThread": [
+      "clr-004"
+    ]
+  },
+  {
+    "id": "lead-004",
+    "name": "Sneha Reddy",
+    "number": "+91 65432 10987",
+    "email": "sneha@fashionboutique.com",
+    "city": "Hyderabad",
+    "leadType": "cold",
+    "source": "email_campaign",
+    "service": "website",
+    "notes": "Small boutique owner. Needs basic website with product catalog.",
+    "status": "contacted",
+    "comments": [
+      {
+        "id": "c4-1",
+        "text": "Responded to our email campaign. Budget seems low but interested.",
+        "createdAt": "2026-01-14T13:30:00.000Z",
+        "userId": "clr-005",
+        "userName": "Sneha Reddy"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r4-1",
+        "dateTime": "2026-01-26T10:00:00.000Z",
+        "note": "Follow up with budget-friendly options",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-14T12:30:00.000Z",
+    "createdBy": "clr-005",
+    "createdByName": "Sneha Reddy",
+    "assignedTo": "clr-005",
+    "assignedToName": "Sneha Reddy",
+    "assignmentHistory": [],
+    "teamThread": [
+      "clr-005"
+    ]
+  },
+  {
+    "id": "lead-005",
+    "name": "Vikram Singh",
+    "number": "+91 54321 09876",
+    "email": "vikram@realestateking.com",
+    "city": "Delhi",
+    "leadType": "hot",
+    "source": "google_ads",
+    "service": "web_app",
+    "notes": "Real estate company. Needs property listing portal with virtual tours.",
+    "status": "new",
+    "comments": [
+      {
+        "id": "c5-1",
+        "text": "Inbound from Google Ads. Premium property portal needed.",
+        "createdAt": "2026-01-19T10:00:00.000Z",
+        "userId": "clr-006",
+        "userName": "Karan Mehta"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r5-1",
+        "dateTime": "2026-01-24T14:30:00.000Z",
+        "note": "First discovery call",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-19T10:00:00.000Z",
+    "createdBy": "clr-006",
+    "createdByName": "Karan Mehta",
+    "assignedTo": "clr-006",
+    "assignedToName": "Karan Mehta",
+    "assignmentHistory": [],
+    "teamThread": [
+      "clr-006"
+    ]
+  },
+  {
+    "id": "lead-006",
+    "name": "Ananya Gupta",
+    "number": "+91 43210 98765",
+    "email": "ananya@edutechlearn.com",
+    "city": "Pune",
+    "leadType": "warm",
+    "source": "linkedin",
+    "service": "lp",
+    "notes": "EdTech startup. Needs landing pages for course launches.",
+    "status": "proposal",
+    "comments": [
+      {
+        "id": "c6-1",
+        "text": "EdTech startup launching multiple courses. Need 5 landing pages.",
+        "createdAt": "2026-01-07T10:30:00.000Z",
+        "userId": "clr-003",
+        "userName": "Anita Desai"
+      },
+      {
+        "id": "c6-2",
+        "text": "Sent proposal for 5 LP package - 75K with A/B testing.",
+        "createdAt": "2026-01-12T11:30:00.000Z",
+        "userId": "clr-003",
+        "userName": "Anita Desai"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r6-1",
+        "dateTime": "2026-01-25T10:30:00.000Z",
+        "note": "Follow up on proposal",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-07T09:30:00.000Z",
+    "createdBy": "clr-003",
+    "createdByName": "Anita Desai",
+    "assignedTo": "clr-003",
+    "assignedToName": "Anita Desai",
+    "assignmentHistory": [],
+    "teamThread": [
+      "clr-003"
+    ]
+  },
+  {
+    "id": "lead-007",
+    "name": "Karan Mehta",
+    "number": "+91 32109 87654",
+    "email": "karan.m@logisticspro.in",
+    "city": "Chennai",
+    "leadType": "warm",
+    "source": "other",
+    "service": "automation",
+    "notes": "Logistics company. Needs inventory management automation.",
+    "status": "contacted",
+    "comments": [
+      {
+        "id": "c7-1",
+        "text": "Referral from our client. Logistics company needs inventory automation.",
+        "createdAt": "2026-01-12T11:30:00.000Z",
+        "userId": "clr-004",
+        "userName": "Rahul Verma"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r7-1",
+        "dateTime": "2026-01-24T14:00:00.000Z",
+        "note": "Discovery call for warehouse requirements",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-12T11:00:00.000Z",
+    "createdBy": "clr-004",
+    "createdByName": "Rahul Verma",
+    "assignedTo": "clr-004",
+    "assignedToName": "Rahul Verma",
+    "assignmentHistory": [],
+    "teamThread": [
+      "clr-004"
+    ]
+  },
+  {
+    "id": "lead-008",
+    "name": "Deepa Nair",
+    "number": "+91 21098 76543",
+    "email": "deepa@wellness360.com",
+    "city": "Kochi",
+    "leadType": "cold",
+    "source": "facebook",
+    "service": "app",
+    "notes": "Wellness center. Exploring options for appointment booking app.",
+    "status": "new",
+    "comments": [
+      {
+        "id": "c8-1",
+        "text": "Facebook lead. Small wellness center exploring app options.",
+        "createdAt": "2026-01-18T14:30:00.000Z",
+        "userId": "clr-002",
+        "userName": "Vikram Singh"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r8-1",
+        "dateTime": "2026-01-27T11:30:00.000Z",
+        "note": "Initial discovery call",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-18T14:30:00.000Z",
+    "createdBy": "clr-002",
+    "createdByName": "Vikram Singh",
+    "assignedTo": "clr-002",
+    "assignedToName": "Vikram Singh",
+    "assignmentHistory": [],
+    "teamThread": [
+      "clr-002"
+    ]
+  },
+  {
+    "id": "lead-009",
+    "name": "Suresh Iyer",
+    "number": "+91 99887 76655",
+    "email": "suresh@megacorp.in",
+    "city": "Mumbai",
+    "leadType": "hot",
+    "source": "linkedin",
+    "service": "web_app",
+    "notes": "Large enterprise client. Needs complete ERP solution. High value deal.",
+    "status": "negotiation",
+    "comments": [
+      {
+        "id": "c9-1",
+        "text": "Big enterprise lead! They need full ERP solution.",
+        "createdAt": "2026-01-03T09:30:00.000Z",
+        "userId": "clr-001",
+        "userName": "Neha Gupta"
+      },
+      {
+        "id": "c9-2",
+        "text": "Complex requirements. Escalating to manager.",
+        "createdAt": "2026-01-05T16:30:00.000Z",
+        "userId": "clr-001",
+        "userName": "Neha Gupta"
+      },
+      {
+        "id": "c9-3",
+        "text": "Taking over this lead. Will have executive-level conversation.",
+        "createdAt": "2026-01-09T11:30:00.000Z",
+        "userId": "mgr-001",
+        "userName": "Priya Sharma"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r9-1",
+        "dateTime": "2026-01-25T10:00:00.000Z",
+        "note": "Phase 1 scope finalization meeting",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-03T09:00:00.000Z",
+    "createdBy": "clr-001",
+    "createdByName": "Neha Gupta",
+    "assignedTo": "mgr-001",
+    "assignedToName": "Priya Sharma",
+    "assignmentHistory": [
+      {
+        "id": "ah9-1",
+        "fromUserId": "clr-001",
+        "fromUserName": "Neha Gupta",
+        "toUserId": "mgr-001",
+        "toUserName": "Priya Sharma",
+        "reason": "Complex enterprise requirements - need manager guidance",
+        "assignedAt": "2026-01-05T16:30:00.000Z"
+      }
+    ],
+    "teamThread": [
+      "clr-001",
+      "mgr-001"
+    ]
+  },
+  {
+    "id": "lead-010",
+    "name": "Meera Shah",
+    "number": "+91 88776 65544",
+    "email": "meera@startupxyz.com",
+    "city": "Bangalore",
+    "leadType": "warm",
+    "source": "google_ads",
+    "service": "app",
+    "notes": "Startup looking for MVP development. Budget was too low.",
+    "status": "lost",
+    "comments": [
+      {
+        "id": "c10-1",
+        "text": "Startup founder. Needs MVP for their idea.",
+        "createdAt": "2025-12-20T10:30:00.000Z",
+        "userId": "clr-005",
+        "userName": "Sneha Reddy"
+      },
+      {
+        "id": "c10-2",
+        "text": "Marking as lost. Client went with a cheaper freelancer.",
+        "createdAt": "2026-01-02T09:30:00.000Z",
+        "userId": "clr-005",
+        "userName": "Sneha Reddy"
+      }
+    ],
+    "reminders": [],
+    "createdAt": "2025-12-20T10:00:00.000Z",
+    "createdBy": "clr-005",
+    "createdByName": "Sneha Reddy",
+    "assignedTo": "clr-005",
+    "assignedToName": "Sneha Reddy",
+    "assignmentHistory": [],
+    "teamThread": [
+      "clr-005"
+    ]
+  },
+  {
+    "id": "lead-011",
+    "name": "Arun Krishnan",
+    "number": "+91 77889 99000",
+    "email": "arun@finserve.co.in",
+    "city": "Chennai",
+    "leadType": "hot",
+    "source": "email_campaign",
+    "service": "automation",
+    "notes": "Financial services company. Needs loan processing automation.",
+    "status": "proposal",
+    "comments": [
+      {
+        "id": "c11-1",
+        "text": "BFSI lead - taking this directly as it needs domain expertise.",
+        "createdAt": "2026-01-08T09:30:00.000Z",
+        "userId": "mgr-002",
+        "userName": "Amit Patel"
+      },
+      {
+        "id": "c11-2",
+        "text": "Proposal sent - 8L for complete solution with compliance features.",
+        "createdAt": "2026-01-15T12:30:00.000Z",
+        "userId": "mgr-002",
+        "userName": "Amit Patel"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r11-1",
+        "dateTime": "2026-01-24T11:30:00.000Z",
+        "note": "Proposal review call",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-08T09:00:00.000Z",
+    "createdBy": "mgr-002",
+    "createdByName": "Amit Patel",
+    "assignedTo": "mgr-002",
+    "assignedToName": "Amit Patel",
+    "assignmentHistory": [],
+    "teamThread": [
+      "mgr-002"
+    ]
+  },
+  {
+    "id": "lead-012",
+    "name": "Lakshmi Venkat",
+    "number": "+91 66778 89900",
+    "email": "lakshmi@retailmart.in",
+    "city": "Hyderabad",
+    "leadType": "warm",
+    "source": "facebook",
+    "service": "website",
+    "notes": "Retail chain. Needs multi-store website with inventory display.",
+    "status": "qualified",
+    "comments": [
+      {
+        "id": "c12-1",
+        "text": "Inbound lead from FB. Retail chain with 8 stores.",
+        "createdAt": "2026-01-06T10:30:00.000Z",
+        "userId": "clr-003",
+        "userName": "Anita Desai"
+      },
+      {
+        "id": "c12-2",
+        "text": "Qualified - budget is 1.5-2L. Good fit for our retail solution.",
+        "createdAt": "2026-01-13T16:30:00.000Z",
+        "userId": "clr-003",
+        "userName": "Anita Desai"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r12-1",
+        "dateTime": "2026-01-24T15:30:00.000Z",
+        "note": "Send proposal for multi-store website",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-06T10:00:00.000Z",
+    "createdBy": "clr-003",
+    "createdByName": "Anita Desai",
+    "assignedTo": "clr-003",
+    "assignedToName": "Anita Desai",
+    "assignmentHistory": [],
+    "teamThread": [
+      "clr-003"
+    ]
+  },
+  {
+    "id": "lead-013",
+    "name": "Rajiv Menon",
+    "number": "+91 55667 78899",
+    "email": "rajiv@smallbiz.com",
+    "city": "Kochi",
+    "leadType": "cold",
+    "source": "other",
+    "service": "website",
+    "notes": "Small business owner. Basic website requirement.",
+    "status": "contacted",
+    "comments": [
+      {
+        "id": "c13-1",
+        "text": "Referral lead. Small business needs basic website.",
+        "createdAt": "2026-01-10T10:30:00.000Z",
+        "userId": "clr-006",
+        "userName": "Karan Mehta"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r13-1",
+        "dateTime": "2026-01-25T10:30:00.000Z",
+        "note": "Follow up call",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-10T10:00:00.000Z",
+    "createdBy": "clr-006",
+    "createdByName": "Karan Mehta",
+    "assignedTo": "clr-006",
+    "assignedToName": "Karan Mehta",
+    "assignmentHistory": [],
+    "teamThread": [
+      "clr-006"
+    ]
+  },
+  {
+    "id": "lead-014",
+    "name": "Divya Kapoor",
+    "number": "+91 44556 67788",
+    "email": "divya@healthtech.io",
+    "city": "Delhi",
+    "leadType": "hot",
+    "source": "linkedin",
+    "service": "app",
+    "notes": "HealthTech startup. Doctor appointment + teleconsultation app.",
+    "status": "negotiation",
+    "comments": [
+      {
+        "id": "c14-1",
+        "text": "Great lead! HealthTech startup with seed funding.",
+        "createdAt": "2026-01-05T11:30:00.000Z",
+        "userId": "clr-004",
+        "userName": "Rahul Verma"
+      },
+      {
+        "id": "c14-2",
+        "text": "Proposal sent - 7.5L. Client reviewing with their tech team.",
+        "createdAt": "2026-01-16T15:30:00.000Z",
+        "userId": "clr-005",
+        "userName": "Sneha Reddy"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r14-1",
+        "dateTime": "2026-01-24T11:30:00.000Z",
+        "note": "Follow up on proposal",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-05T11:00:00.000Z",
+    "createdBy": "clr-004",
+    "createdByName": "Rahul Verma",
+    "assignedTo": "clr-005",
+    "assignedToName": "Sneha Reddy",
+    "assignmentHistory": [
+      {
+        "id": "ah14-1",
+        "fromUserId": "clr-004",
+        "fromUserName": "Rahul Verma",
+        "toUserId": "clr-005",
+        "toUserName": "Sneha Reddy",
+        "reason": "Reassigning - Sneha has healthcare domain experience",
+        "assignedAt": "2026-01-11T10:30:00.000Z"
+      }
+    ],
+    "teamThread": [
+      "clr-004",
+      "clr-005"
+    ]
+  },
+  {
+    "id": "lead-015",
+    "name": "Nikhil Joshi",
+    "number": "+91 33445 56677",
+    "email": "nikhil@travelco.in",
+    "city": "Goa",
+    "leadType": "warm",
+    "source": "google_ads",
+    "service": "web_app",
+    "notes": "Travel company. Needs booking portal with payment integration.",
+    "status": "new",
+    "comments": [
+      {
+        "id": "c15-1",
+        "text": "Travel booking portal needed. Good potential.",
+        "createdAt": "2026-01-19T11:30:00.000Z",
+        "userId": "clr-001",
+        "userName": "Neha Gupta"
+      }
+    ],
+    "reminders": [
+      {
+        "id": "r15-1",
+        "dateTime": "2026-01-24T10:30:00.000Z",
+        "note": "First contact call",
+        "completed": false
+      },
+      {
+        "id": "1769171155177",
+        "dateTime": "2026-01-24T12:25:00.000Z",
+        "note": "",
+        "completed": false
+      },
+      {
+        "id": "1769171167465",
+        "dateTime": "2026-01-23T12:26:00.000Z",
+        "note": "",
+        "completed": false
+      }
+    ],
+    "createdAt": "2026-01-19T11:30:00.000Z",
+    "createdBy": "clr-001",
+    "createdByName": "Neha Gupta",
+    "assignedTo": "clr-001",
+    "assignedToName": "Neha Gupta",
+    "assignmentHistory": [],
+    "teamThread": [
+      "clr-001"
+    ]
+  }
+]

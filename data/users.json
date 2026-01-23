@@ -1,0 +1,110 @@
+[
+  {
+    "id": "admin-001",
+    "name": "Sanjay Kapoor",
+    "email": "admin@crm.com",
+    "phone": "+91 98765 00000",
+    "password": "admin123",
+    "role": "admin",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "isActive": true
+  },
+  {
+    "id": "tl-001",
+    "name": "Rajesh Kumar",
+    "email": "tl@crm.com",
+    "phone": "+91 98765 43210",
+    "password": "tl123",
+    "role": "team_leader",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "isActive": true
+  },
+  {
+    "id": "mgr-001",
+    "name": "Priya Sharma",
+    "email": "manager1@crm.com",
+    "phone": "+91 98765 43211",
+    "password": "manager123",
+    "role": "manager",
+    "reportingTo": "tl-001",
+    "createdAt": "2024-01-15T00:00:00.000Z",
+    "isActive": true
+  },
+  {
+    "id": "mgr-002",
+    "name": "Amit Patel",
+    "email": "manager2@crm.com",
+    "phone": "+91 98765 43212",
+    "password": "manager123",
+    "role": "manager",
+    "reportingTo": "tl-001",
+    "createdAt": "2024-02-01T00:00:00.000Z",
+    "isActive": true
+  },
+  {
+    "id": "clr-001",
+    "name": "Neha Gupta",
+    "email": "caller1@crm.com",
+    "phone": "+91 98765 43213",
+    "password": "caller123",
+    "role": "caller",
+    "reportingTo": "mgr-001",
+    "createdAt": "2024-02-15T00:00:00.000Z",
+    "isActive": true
+  },
+  {
+    "id": "clr-002",
+    "name": "Vikram Singh",
+    "email": "caller2@crm.com",
+    "phone": "+91 98765 43214",
+    "password": "caller123",
+    "role": "caller",
+    "reportingTo": "mgr-001",
+    "createdAt": "2024-02-20T00:00:00.000Z",
+    "isActive": true
+  },
+  {
+    "id": "clr-003",
+    "name": "Anita Desai",
+    "email": "caller3@crm.com",
+    "phone": "+91 98765 43215",
+    "password": "caller123",
+    "role": "caller",
+    "reportingTo": "mgr-001",
+    "createdAt": "2024-03-01T00:00:00.000Z",
+    "isActive": true
+  },
+  {
+    "id": "clr-004",
+    "name": "Rahul Verma",
+    "email": "caller4@crm.com",
+    "phone": "+91 98765 43216",
+    "password": "caller123",
+    "role": "caller",
+    "reportingTo": "mgr-002",
+    "createdAt": "2024-03-10T00:00:00.000Z",
+    "isActive": true
+  },
+  {
+    "id": "clr-005",
+    "name": "Sneha Reddy",
+    "email": "caller5@crm.com",
+    "phone": "+91 98765 43217",
+    "password": "caller123",
+    "role": "caller",
+    "reportingTo": "mgr-002",
+    "createdAt": "2024-03-15T00:00:00.000Z",
+    "isActive": true
+  },
+  {
+    "id": "clr-006",
+    "name": "Karan Mehta",
+    "email": "caller6@crm.com",
+    "phone": "+91 98765 43218",
+    "password": "caller123",
+    "role": "caller",
+    "reportingTo": "mgr-002",
+    "createdAt": "2024-03-20T00:00:00.000Z",
+    "isActive": true
+  }
+]

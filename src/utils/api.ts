@@ -1,10 +1,17 @@
-// API configuration
-const API_BASE = 'http://localhost:3001/api';
+// API configuration - uses environment variable in production, falls back to localhost for development
+// Set REACT_APP_API_URL to empty string to disable API and use localStorage only
+const API_BASE = process.env.REACT_APP_API_URL ?? 'http://localhost:3001/api';
 
 // Check if API server is available
 let useAPI = false;
 
 export const checkAPIAvailability = async (): Promise<boolean> => {
+  // Skip API check if no API URL is configured
+  if (!API_BASE) {
+    useAPI = false;
+    return false;
+  }
+
   try {
     const response = await fetch(`${API_BASE}/stats`, { method: 'GET' });
     useAPI = response.ok;
@@ -15,8 +22,10 @@ export const checkAPIAvailability = async (): Promise<boolean> => {
   }
 };
 
-// Initialize API check
-checkAPIAvailability();
+// Initialize API check only if API_BASE is configured
+if (API_BASE) {
+  checkAPIAvailability();
+}
 
 // Generic fetch wrapper
 const apiFetch = async <T>(endpoint: string, options?: RequestInit): Promise<T> => {
